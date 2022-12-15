@@ -2,7 +2,7 @@ from graph3 import City, load_graph
 
 nodes, graph = load_graph("roadmap.dot", City.from_dict)
 
-nodes["london"]
+print(nodes["london"])
 
 
 print(graph)
